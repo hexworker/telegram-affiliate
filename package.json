@@ -1,0 +1,36 @@
+{
+  "name": "telegram-affiliate",
+  "version": "1.0.0",
+  "description": "Telegram group assistant for affiliate marketing operations",
+  "author": "hexworker",
+  "license": "MIT",
+  "homepage": "https://github.com/hexworker/telegram-affiliate",
+  "keywords": [
+    "clawdbot",
+    "skill",
+    "telegram",
+    "affiliate",
+    "marketing",
+    "mtproto",
+    "telethon",
+    "assistant"
+  ],
+  "clawdbot": {
+    "emoji": "📱",
+    "category": "communication",
+    "files": {
+      "SKILL.md": "SKILL.md",
+      "listener.py": "listener.py"
+    },
+    "requires": {
+      "python": ["telethon"]
+    },
+    "triggers": [
+      "affiliate group",
+      "telegram group",
+      "check affiliate messages",
+      "respond to network",
+      "offer details"
+    ]
+  }
+}
